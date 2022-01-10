@@ -9,29 +9,34 @@
     - [x] SignUp.js - toggle to sign up
   - Components
     - [x] AuthForm
-- [ ] Set up routes
+    - [x] UserStatus
+- [ ] Set up routes - use one route / switches between signIn and signUp depending on userStatus
 
 ## App.js
 
-- [ ] currentUser state
+- [x] currentUser state
 - [ ] log out call
 - [ ] currentUser statuses using Route exact path="/"
 
-## Authentication
+## Authentication - SignIn
 
-- [ ] set States
-  - [ ] email
-  - [ ] password
+- [x] set States
+  - [x] email
+  - [x] password
 - [ ] handleSubmit button
   - [ ] try catch for error message
 
-## Authorization
+## Authorization - SignUp
 
-- [ ] set States
-  - [ ] email
-  - [ ] password
+- [x] set States
+  - [x] email
+  - [x] password
 - [ ] handleSubmit button
   - [ ] try catch for error message
+
+## AuthForm component
+
+- [ ] form input with email and password
 
 ## LogOut
 
