@@ -16,7 +16,7 @@
 
 - [x] currentUser state
 - [ ] log out call
-- [ ] currentUser statuses using Route exact path="/"
+- [x] currentUser statuses using Route exact path="/"
 
 ## Authentication - SignIn
 
@@ -31,8 +31,8 @@
 - [x] set States
   - [x] email
   - [x] password
-- [ ] handleSubmit button
-  - [ ] try catch for error message
+- [x] handleSubmit button
+  - [x] try catch for error message
 
 ## AuthForm component
 
@@ -40,4 +40,4 @@
 
 ## LogOut
 
-- [ ] add logout function to App as an option
+- [x] add logout function to App as an option
