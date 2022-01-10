@@ -12,6 +12,7 @@ export default function SignUp() {
     e.preventDefault();
     try {
       const resp = await signupUser(email, password);
+      console.log(resp);
     } catch (e) {
       setErrorMsg('Something went wrong. Please try again');
     }
@@ -26,6 +27,7 @@ export default function SignUp() {
         password={password}
         setPassword={setPassword}
         handleSubmit={handleSubmit}
+        errorMsg={errorMsg}
       />
     </div>
   );

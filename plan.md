@@ -23,8 +23,8 @@
 - [x] set States
   - [x] email
   - [x] password
-- [ ] handleSubmit button
-  - [ ] try catch for error message
+- [x] handleSubmit button
+  - [x] try catch for error message
 
 ## Authorization - SignUp
 
@@ -36,7 +36,7 @@
 
 ## AuthForm component
 
-- [ ] form input with email and password
+- [x] form input with email and password
 
 ## LogOut
 

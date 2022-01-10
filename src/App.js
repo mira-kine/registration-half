@@ -1,11 +1,11 @@
 import './App.css';
 import { Switch, BrowserRouter, Route } from 'react-router-dom';
-import { useState } from 'react';
-import { getUser } from './services/users';
+// import { useState } from 'react';
+// import { getUser } from './services/users';
 import SignUp from './views/SignUp';
 
 function App() {
-  const [currentUser, setCurrentUser] = useState(getUser());
+  // const [currentUser, setCurrentUser] = useState(getUser());
   return (
     <div className="App">
       <BrowserRouter>

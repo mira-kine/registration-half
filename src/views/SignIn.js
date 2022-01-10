@@ -1,14 +1,32 @@
-// import React from 'react';
-// import { useState } from 'react';
-// import AuthForm from '../components/AuthForm';
+import React from 'react';
+import { useState } from 'react';
+import AuthForm from '../components/AuthForm';
+import { signInUser } from '../services/users';
 
-// export default function SignIn() {
-//   const [email, setEmail] = useState('');
-//   const [password, setPassword] = useState('');
+export default function SignIn() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [errorMsg, setErrorMsg] = useState('');
 
-//   return (
-//     <div>
-//       <AuthForm email={email} setEmail={setEmail} pw={pw} setPw={setPw} />
-//     </div>
-//   );
-// }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const resp = await signInUser(email, password);
+    } catch (e) {
+      setErrorMsg('Something went wrong. Please try again');
+    }
+  };
+
+  return (
+    <div>
+      <AuthForm
+        email={email}
+        setEmail={setEmail}
+        password={password}
+        setPassword={setPassword}
+        errorMsg={errorMsg}
+        handleSubmit={handleSubmit}
+      />
+    </div>
+  );
+}
