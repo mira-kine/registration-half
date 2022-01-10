@@ -2,13 +2,13 @@
 
 ## To Organize
 
-- [ ] set up view + component folders
+- [x] set up view + component folders
   - View
-    - [ ] Auth.js -
-    - [ ] SignIn.js - toggle to sign in
-    - [ ] SignUp.js - toggle to sign up
+    - [x] Auth.js -
+    - [x] SignIn.js - toggle to sign in
+    - [x] SignUp.js - toggle to sign up
   - Components
-    - [ ] AuthForm
+    - [x] AuthForm
 - [ ] Set up routes
 
 ## App.js
