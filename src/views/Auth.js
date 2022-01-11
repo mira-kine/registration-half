@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import UserStatus from '../components/UserStatus';
-import classNames from 'classnames';
 import AuthForm from '../components/AuthForm';
 import { signInUser, signupUser } from '../services/users';
 
