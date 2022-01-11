@@ -1,9 +1,10 @@
 import classNames from 'classnames';
 import React from 'react';
+import './UserStatus.css';
 
 export default function UserStatus({ type, setType }) {
   return (
-    <div>
+    <div className="options">
       <h2
         onClick={() => {
           setType('signin');
