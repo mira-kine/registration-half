@@ -2,37 +2,42 @@
 
 ## To Organize
 
-- [ ] set up view + component folders
+- [x] set up view + component folders
   - View
-    - [ ] Auth.js -
-    - [ ] SignIn.js - toggle to sign in
-    - [ ] SignUp.js - toggle to sign up
+    - [x] Auth.js -
+    - [x] SignIn.js - toggle to sign in
+    - [x] SignUp.js - toggle to sign up
   - Components
-    - [ ] AuthForm
-- [ ] Set up routes
+    - [x] AuthForm
+    - [x] UserStatus
+- [ ] Set up routes - use one route / switches between signIn and signUp depending on userStatus
 
 ## App.js
 
-- [ ] currentUser state
+- [x] currentUser state
 - [ ] log out call
-- [ ] currentUser statuses using Route exact path="/"
+- [x] currentUser statuses using Route exact path="/"
 
-## Authentication
+## Authentication - SignIn
 
-- [ ] set States
-  - [ ] email
-  - [ ] password
-- [ ] handleSubmit button
-  - [ ] try catch for error message
+- [x] set States
+  - [x] email
+  - [x] password
+- [x] handleSubmit button
+  - [x] try catch for error message
 
-## Authorization
+## Authorization - SignUp
 
-- [ ] set States
-  - [ ] email
-  - [ ] password
-- [ ] handleSubmit button
-  - [ ] try catch for error message
+- [x] set States
+  - [x] email
+  - [x] password
+- [x] handleSubmit button
+  - [x] try catch for error message
+
+## AuthForm component
+
+- [x] form input with email and password
 
 ## LogOut
 
-- [ ] add logout function to App as an option
+- [x] add logout function to App as an option
